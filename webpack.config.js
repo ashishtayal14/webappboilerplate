@@ -22,14 +22,6 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: "babel-loader"
             },
-            // {
-            //     test: /\.(sa|sc|c)ss$/,
-            //     use: [
-            //         devMode ? 'style-loader' : MiniCssExtractPlugin.loader,
-            //         'css-loader',
-            //         'sass-loader'
-            //     ]
-            // },
             {
                 test: /\.(sa|sc|c)ss$/,
                 use: [
